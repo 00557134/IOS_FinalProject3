@@ -10,7 +10,19 @@ import SwiftUI
 
 struct AppView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        TabView{
+            MonsterList()
+            .tabItem {
+                Image(systemName: "list.bullet")
+                Text("分類")
+            }
+            MonsterOverview()
+            .tabItem {
+                Image(systemName: "book.circle")
+                Text("封面")
+            }
+            
+        }
     }
 }
 

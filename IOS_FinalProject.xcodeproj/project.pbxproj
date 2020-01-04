@@ -19,6 +19,13 @@
 		57E1666723C0DCBC009B1452 /* datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1666623C0DCBC009B1452 /* datas.swift */; };
 		57E1666923C10122009B1452 /* MonsterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1666823C10121009B1452 /* MonsterList.swift */; };
 		57E1666B23C1043F009B1452 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1666A23C1043F009B1452 /* AppView.swift */; };
+		57E1666D23C11BF4009B1452 /* MonsterOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1666C23C11BF4009B1452 /* MonsterOverview.swift */; };
+		57E1666F23C11C28009B1452 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1666E23C11C28009B1452 /* ImageData.swift */; };
+		57E1667123C11C44009B1452 /* GameImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1667023C11C44009B1452 /* GameImage.swift */; };
+		57E1667523C11CC5009B1452 /* GameInfor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1667423C11CC5009B1452 /* GameInfor.swift */; };
+		57E1667723C122C1009B1452 /* PictureWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1667623C122C1009B1452 /* PictureWall.swift */; };
+		57E1667923C1280F009B1452 /* PictureInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1667823C1280F009B1452 /* PictureInfo.swift */; };
+		57E1667B23C12D0B009B1452 /* PictureData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1667A23C12D0B009B1452 /* PictureData.swift */; };
 		8111A0BD0C74C7AF4A2566DB /* Pods_IOS_FinalProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2267BCF9A1A081DB9AF84678 /* Pods_IOS_FinalProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +45,13 @@
 		57E1666623C0DCBC009B1452 /* datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datas.swift; sourceTree = "<group>"; };
 		57E1666823C10121009B1452 /* MonsterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterList.swift; sourceTree = "<group>"; };
 		57E1666A23C1043F009B1452 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		57E1666C23C11BF4009B1452 /* MonsterOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterOverview.swift; sourceTree = "<group>"; };
+		57E1666E23C11C28009B1452 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		57E1667023C11C44009B1452 /* GameImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameImage.swift; sourceTree = "<group>"; };
+		57E1667423C11CC5009B1452 /* GameInfor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInfor.swift; sourceTree = "<group>"; };
+		57E1667623C122C1009B1452 /* PictureWall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureWall.swift; sourceTree = "<group>"; };
+		57E1667823C1280F009B1452 /* PictureInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureInfo.swift; sourceTree = "<group>"; };
+		57E1667A23C12D0B009B1452 /* PictureData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureData.swift; sourceTree = "<group>"; };
 		7E33BAE2446978CBA4BC1447 /* Pods-IOS_FinalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS_FinalProject.release.xcconfig"; path = "Target Support Files/Pods-IOS_FinalProject/Pods-IOS_FinalProject.release.xcconfig"; sourceTree = "<group>"; };
 		E0D051C87781459B9EDC21C2 /* Pods-IOS_FinalProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS_FinalProject.debug.xcconfig"; path = "Target Support Files/Pods-IOS_FinalProject/Pods-IOS_FinalProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +119,13 @@
 				57E1666423C0DCA1009B1452 /* MonsterClass.swift */,
 				57E1666623C0DCBC009B1452 /* datas.swift */,
 				57E1666A23C1043F009B1452 /* AppView.swift */,
+				57E1666C23C11BF4009B1452 /* MonsterOverview.swift */,
+				57E1666E23C11C28009B1452 /* ImageData.swift */,
+				57E1667023C11C44009B1452 /* GameImage.swift */,
+				57E1667423C11CC5009B1452 /* GameInfor.swift */,
+				57E1667623C122C1009B1452 /* PictureWall.swift */,
+				57E1667823C1280F009B1452 /* PictureInfo.swift */,
+				57E1667A23C12D0B009B1452 /* PictureData.swift */,
 			);
 			path = IOS_FinalProject;
 			sourceTree = "<group>";
@@ -233,12 +254,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57E1667123C11C44009B1452 /* GameImage.swift in Sources */,
+				57E1667B23C12D0B009B1452 /* PictureData.swift in Sources */,
 				57E1666923C10122009B1452 /* MonsterList.swift in Sources */,
+				57E1667523C11CC5009B1452 /* GameInfor.swift in Sources */,
+				57E1666D23C11BF4009B1452 /* MonsterOverview.swift in Sources */,
 				57E1664923C0C65E009B1452 /* AppDelegate.swift in Sources */,
+				57E1666F23C11C28009B1452 /* ImageData.swift in Sources */,
+				57E1667923C1280F009B1452 /* PictureInfo.swift in Sources */,
 				57E1666723C0DCBC009B1452 /* datas.swift in Sources */,
 				57E1666523C0DCA1009B1452 /* MonsterClass.swift in Sources */,
 				57E1666B23C1043F009B1452 /* AppView.swift in Sources */,
 				57E1664B23C0C65E009B1452 /* SceneDelegate.swift in Sources */,
+				57E1667723C122C1009B1452 /* PictureWall.swift in Sources */,
 				57E1664D23C0C65E009B1452 /* ContentView.swift in Sources */,
 				57E1666123C0D8EA009B1452 /* MonsterRow.swift in Sources */,
 			);
