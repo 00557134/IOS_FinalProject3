@@ -7,5 +7,3 @@
 //
 
 import Foundation
-
-//var 牙龍種2

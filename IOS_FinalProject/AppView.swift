@@ -11,6 +11,11 @@ import SwiftUI
 struct AppView: View {
     var body: some View {
         TabView{
+            MainPage()
+            .tabItem {
+                Image(systemName: "book.circle")
+                Text("介紹")
+            }
             MonsterList()
             .tabItem {
                 Image(systemName: "list.bullet")
@@ -21,7 +26,11 @@ struct AppView: View {
                 Image(systemName: "book.circle")
                 Text("封面")
             }
-            
+            PictureWall()
+            .tabItem {
+                Image(systemName: "list.bullet")
+                Text("照片")
+            }
         }
     }
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57C0FE9623C1E4B20098A7E4 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0FE9523C1E4B20098A7E4 /* ImagePickerController.swift */; };
+		57C0FE9823C1FE290098A7E4 /* PicDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C0FE9723C1FE290098A7E4 /* PicDetect.swift */; };
+		57CBF6EB23CC71F8006EEC18 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CBF6EA23CC71F8006EEC18 /* MainPage.swift */; };
 		57E1664923C0C65E009B1452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1664823C0C65E009B1452 /* AppDelegate.swift */; };
 		57E1664B23C0C65E009B1452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1664A23C0C65E009B1452 /* SceneDelegate.swift */; };
 		57E1664D23C0C65E009B1452 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E1664C23C0C65E009B1452 /* ContentView.swift */; };
@@ -31,6 +34,9 @@
 
 /* Begin PBXFileReference section */
 		2267BCF9A1A081DB9AF84678 /* Pods_IOS_FinalProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS_FinalProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C0FE9523C1E4B20098A7E4 /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		57C0FE9723C1FE290098A7E4 /* PicDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicDetect.swift; sourceTree = "<group>"; };
+		57CBF6EA23CC71F8006EEC18 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		57E1664523C0C65E009B1452 /* IOS_FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E1664823C0C65E009B1452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57E1664A23C0C65E009B1452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +132,9 @@
 				57E1667623C122C1009B1452 /* PictureWall.swift */,
 				57E1667823C1280F009B1452 /* PictureInfo.swift */,
 				57E1667A23C12D0B009B1452 /* PictureData.swift */,
+				57C0FE9523C1E4B20098A7E4 /* ImagePickerController.swift */,
+				57C0FE9723C1FE290098A7E4 /* PicDetect.swift */,
+				57CBF6EA23CC71F8006EEC18 /* MainPage.swift */,
 			);
 			path = IOS_FinalProject;
 			sourceTree = "<group>";
@@ -265,8 +274,11 @@
 				57E1666723C0DCBC009B1452 /* datas.swift in Sources */,
 				57E1666523C0DCA1009B1452 /* MonsterClass.swift in Sources */,
 				57E1666B23C1043F009B1452 /* AppView.swift in Sources */,
+				57CBF6EB23CC71F8006EEC18 /* MainPage.swift in Sources */,
+				57C0FE9623C1E4B20098A7E4 /* ImagePickerController.swift in Sources */,
 				57E1664B23C0C65E009B1452 /* SceneDelegate.swift in Sources */,
 				57E1667723C122C1009B1452 /* PictureWall.swift in Sources */,
+				57C0FE9823C1FE290098A7E4 /* PicDetect.swift in Sources */,
 				57E1664D23C0C65E009B1452 /* ContentView.swift in Sources */,
 				57E1666123C0D8EA009B1452 /* MonsterRow.swift in Sources */,
 			);
